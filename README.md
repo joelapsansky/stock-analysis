@@ -6,6 +6,8 @@
 Steve would like to do more research on stocks for his parents.  I will use VBA to analyze a portfolio of stocks and their performances in 2017 and 2018.  The code is already written, but I have refactored it to run more efficiently for Steve.
 
 ## Results
+
+### Writting the Code
 The VBA code loops through all of the pertinent tickers in the index after initializing the array, which looks like this:
 
 ```
@@ -44,7 +46,7 @@ The loop continues until we have what we need for all tickers.  Using the ticker
 ![Original 2017](/resources/green_stocks_2017_Not_Refactored.png "Original 2017")
 ![Original 2018](/resources/green_stocks_2018_Not_Refactored.png "Original 2018") 
 
-### Stock Performance
+### Analyzing Stock Performance
 With the exception of TERP, most of the stocks in this portfolio performed really well in 2017.  However, in 2018, they all flipped to negative returns except for ENPH and RUN.  This is a mixed bag of results.  For further analysis, I would recommend diving into financial statements for ENPH and RUN to make sure that their strong two year performance is not a fluke.
 
 ## Summary
