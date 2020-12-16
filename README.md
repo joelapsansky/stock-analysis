@@ -41,9 +41,13 @@ tickerIndex = tickerIndex + 1
 
 The loop continues until we have what we need for all tickers.  Using the tickerIndex in this refactored code is much more efficient than my original version.  The analysis on 2017 and 2018 ran in 0.289 and 0.273 seconds respectively while the non-refactored versions ran in over 0.82 seconds for both years.
 
+### Refactored 2017
 ![VBA Challenge 2017](/resources/VBA_Challenge_2017.png "VBA Challenge 2017")
+### Refactored 2018
 ![VBA Challenge 2018](/resources/VBA_Challenge_2018.png "VBA Challenge 2018")
+### Original 2017
 ![Original 2017](/resources/green_stocks_2017_Not_Refactored.png "Original 2017")
+### Original 2018
 ![Original 2018](/resources/green_stocks_2018_Not_Refactored.png "Original 2018") 
 
 ### Analyzing Stock Performance
@@ -53,7 +57,7 @@ With the exception of TERP, most of the stocks in this portfolio performed reall
 
 This refactored code makes use of indexes and arrays, which has plenty of advantages.  Not only is it less code and easier on the eyes, but it's much nicer to read if you hand it off to someone else to view.  Also, it runs much faster so it is all-around more efficient.  
   
-The original VBA script might have been less difficult to understand at first.  It is more logical so every piece of it is written out as our brains work the problem.  However, writing every single step is clearly not as beneficial, evident by the run times.  When we make use of arrays, we have to think about where to make the edits to strengthen the code, but it leads to a more sophisticated version of the script that is faster in the end.
+The original VBA script might have been less difficult to understand at first.  It is more logical so every piece of it is written out as our brains work the problem.  However, writing every single step is clearly not as beneficial, evident by the run times.  When we make use of arrays and an index, we have to think about where to make the edits to strengthen the code, but it leads to a more sophisticated version of the script that is faster in the end.
 
 
 
